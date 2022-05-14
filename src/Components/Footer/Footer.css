@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: -4rem;
+
+}
+
+.f-contant{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;margin-top: 4rem;
+    gap: 4rem;
+    color: white;
+}
+
+.f-icons{
+    display: flex;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .f-contant{
+       transform: scale(.5);
+    }
+    .footer{
+        margin-top: -14rem;
+        padding-top: 6rem;
+    }
+    .f-icons{
+        margin-top: -6rem;
+    }
+    .f-contant>span:nth-of-type(1){
+        margin-top: -2rem;
+        padding-bottom: 3rem;
+    }
+    
+ }
